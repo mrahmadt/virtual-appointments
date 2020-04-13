@@ -61,6 +61,9 @@ Install-Module -Name CredentialManager
 - use "data\sms.cvs" file to send the SMS/email/Whatsapp to your clients
 
 
+# TODO
+- URL shortener for MS Teams meeting link [please vote to implement this on MS Teams!](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/33010897-url-shortener-for-teams)
+- Explain the format of "data\appointements.csv" and "data\sms.cvs" :)
 
 # DISCLAIMER
 This sample is provided as is and is not meant for use on a production environment.
