@@ -62,7 +62,7 @@ Install-Module -Name CredentialManager
 
 
 # TODO
-- URL shortener for MS Teams meeting link [please vote to implement this on MS Teams!](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/33010897-url-shortener-for-teams)
+- URL shortener for MS Teams meeting link ([please vote to implement this on MS Teams!](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/33010897-url-shortener-for-teams))
 - Explain the format of "data\appointements.csv" and "data\sms.cvs" :)
 
 # DISCLAIMER
