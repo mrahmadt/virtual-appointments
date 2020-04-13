@@ -56,6 +56,10 @@ Install-Module -Name CredentialManager
 
 
 # How to run Virtual-Appointments?
+- Export your data (from your appointement system) to CSV file "data\appointements.csv", please follow the format of data\appointements.csv" (The header is required).
+- Run the script "create_teams_meeting.ps1"
+- use "data\sms.cvs" file to send the SMS/email/Whatsapp to your clients
+
 
 
 # DISCLAIMER
