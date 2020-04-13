@@ -42,7 +42,7 @@ For various steps in this process we will need to call the Microsoft Graph. To d
 - Open config.ps1 and change the configuration. 
 - Open template.ps1 and change the SMS and email templates.
 
-## - Step 3: Setup your desktop/server to run the powershell script
+## - Step 3: Setup your desktop/server to run the virtual-appointments powershell script
 - Open Windows PowerShell as administrator and run
 
 ```
