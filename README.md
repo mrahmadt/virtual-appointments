@@ -19,7 +19,7 @@ With "Virtual-Appointments" script, you can quickly provide it with a CSV file o
 # How to run Virtual-Appointments?
 
 
-#DISCLAIMER
+# DISCLAIMER
 This sample is provided as is and is not meant for use on a production environment.
 It is provided only for illustrative purposes. The end user must test and modify the
 sample to suit their target environment. 
