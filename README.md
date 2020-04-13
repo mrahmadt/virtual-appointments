@@ -13,7 +13,46 @@ With "Virtual-Appointments" script, you can quickly provide it with a CSV file o
 - Communication system to send the meeting links to your customers.
 
 # How to setup Virtual-Appointments?
-## SSS
+## - Step 1: Application Registration
+
+For various steps in this process we will need to call the Microsoft Graph. To do that, an app registration is required in Azure AD. This will require a Global Administrator account.
+
+- Navigate to https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps and sign in as a Global Administrator.
+- Click New Registration.
+- Provide an application name, select "Accounts in this organizational directory only", and leave Redirect URI blank. Click Register.
+- Note down Application and Directory IDs to use later.
+- From the left menu, click "API permissions" to grant some permissions to the application.
+- Click "+ Add a permission".
+- Select "Microsoft Graph".
+- Select Delegated permissions.
+- Add the following permissions: OnlineMeetings.ReadWrite, Calendars.ReadWrite
+- Click "Add permissions"
+- Click "+ Add a permission".
+- Select "Microsoft Graph".
+- Select Application permissions.
+- Add the following permissions: Calendars.ReadWrite
+- Click "Add permissions"
+- Click "Grant admin consent for …"
+- From the left menu, click "Certificates & secrets".
+- Under "Client secrets", click "+ New client secret".
+- Provide a description and select an expiry time for the secret and click "Add".
+- Note down the secret Value.
+
+## - Step 2: Application Configuration
+- Open config.ps1 and change the configuration. 
+- Open template.ps1 and change the SMS and email templates.
+
+## - Step 3: Setup your desktop/server to run the powershell script
+- Open Windows PowerShell as administrator and run
+
+```
+Set-ExecutionPolicy RemoteSigned
+Install-Module -Name "AzureAD"
+Install-Module -Name "MicrosoftTeams"
+Install-Module -Name CredentialManager
+```
+
+- Open Credential Manager and create "Windows Credential" with name "MyMicrosoft365" (add Global admin credential).
 
 
 # How to run Virtual-Appointments?
