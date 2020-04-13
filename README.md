@@ -4,7 +4,7 @@ With the current COVID-19 outbreak and the curfew across the world, many custome
 With "Virtual-Appointments" script, you can quickly provide it with a CSV file of all the appointments scheduled for your customers. It will generate for you a Microsoft Teams meeting link for each appointment that you can share it with your customer using any channel you are using to communicate with them (SMS, email, WhatsApp....).
 
 # How does it works?
-![vf-Capture](https://user-images.githubusercontent.com/957921/79162443-f2a36a00-7de5-11ea-8549-a400d9d53ea9.PNG)
+![vf-Capture](https://user-images.githubusercontent.com/957921/79162504-123a9280-7de6-11ea-87f1-3b71f29d68ef.PNG)
 
 
 # What do I need to use this script?
