@@ -4,5 +4,11 @@ With the current COVID-19 outbreak and the curfew across the world, many custome
 With "Virtual-Fast" script, you can quickly provide it with a CSV file of all the appointments scheduled for your customers. It will generate for you a Microsoft Teams meeting link for each appointment that you can share it with your customer using any channel you are using to communicate with them (SMS, email, WhatsApp....).
 
 # How does it works?
+![vf-Capture](https://user-images.githubusercontent.com/957921/79161543-53ca3e00-7de4-11ea-859e-86d487a2d463.PNG)
 
+
+# What do I need to use this script?
+- Microsoft Teams (Admin access).
+- To be able to export the list of the appointments in CSV file format from your appointment system.
+- Communication system to send the meeting links to your customers.
 
