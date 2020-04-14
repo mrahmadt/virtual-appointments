@@ -58,12 +58,12 @@ Install-Module -Name CredentialManager
 # How to run Virtual-Appointments?
 - Export your data (from your appointement system) to CSV file "data\appointements.csv", please follow the format of data\appointements.csv" (The header is required).
 - Run the script "create_teams_meeting.ps1"
-- use "data\sms.cvs" file to send the SMS/email/Whatsapp to your clients
+- use "data\sms.csv" file to send the SMS/email/Whatsapp to your clients
 
 
 # TODO
 - URL shortener for MS Teams meeting link ([please vote to implement this on MS Teams!](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/33010897-url-shortener-for-teams))
-- Explain the format of "data\appointements.csv" and "data\sms.cvs" :)
+- Explain the format of "data\appointements.csv" and "data\sms.csv" :)
 
 # DISCLAIMER
 This sample is provided as is and is not meant for use on a production environment.
